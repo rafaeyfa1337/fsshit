@@ -37,7 +37,7 @@ def worker(host):
                 subdomain = host.split('.')[0]
                 result = ssh(host, subdomain, password, port)
             if result[4]:
-                with open('success.log', 'a') as f:
+                with open('success.txt', 'a') as f:
                     f.write(f'Host: {result[0]} Username: {result[1]} Password: {result[2]} Port: {result[3]}\n')
 lines = open(listmega).read().splitlines()
 lines = list(set(lines))
