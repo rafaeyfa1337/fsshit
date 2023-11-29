@@ -1,4 +1,4 @@
-# FSSHIT (Fucked SSH Mass)
+# FSSHIT (Fuck SSH Mass)
 <p>Tools buat mass brute ssh dari website list, brute pake user root & auto get username (from subdomain, contoh: mega.web.com maka user mega yang digunakan pada saat melakukan bruteforce)<br>Untuk port kalo masih kurang dengan port yang sudah saya sediakan, Kamu bisa disesuaikan sendiri yaa, ada di baris ke 45.<br>Password list juga bisa ditambahin lagi, biar makin mantap hehe.<br>Rekomendasi wordlist: <a href="https://github.com/danielmiessler/SecLists/">https://github.com/danielmiessler/SecLists/</a></p>
 
 <h4>Instal & Run</h4><pre>
